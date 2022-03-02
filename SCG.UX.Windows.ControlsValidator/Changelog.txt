@@ -1,0 +1,7 @@
+1.0.2
+	Se agregó un evento que se va a ejecutar despues de validar el control.
+1.0.3
+    Un método para quitar todos los tooltips.
+    Una propiedad para el tiempo de duración del tooltip.
+1.0.4
+    Cambio en la descripción del delegate MetodoOtrasValidaciones

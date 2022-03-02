@@ -1,0 +1,25 @@
+{
+  "Description": "Wizard",
+  "WizardSteps": [
+    {
+      "PanelId": "PnlWelcome",
+      "Name": "Asistente de facturación",
+      "Number": 1
+    },
+    {
+      "PanelId": "PnlFilters",
+      "Name": "Parámetros de búsqueda",
+      "Number": 2
+    },
+    {
+      "PanelId": "PnlChooseDocuments",
+      "Name": "Selección de pedidos",
+      "Number": 3
+    },
+    {
+      "PanelId": "PnlProcess",
+      "Name": "Creación de facturas",
+      "Number": 4
+    }
+  ]
+}
