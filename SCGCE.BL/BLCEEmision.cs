@@ -167,7 +167,7 @@ namespace SCGCE.BL
 
                 oRecordset.DoQuery(strConsulta);
                 objDocumento.DscRcgGlobal = new List<DscRcgGlobal>();
-                int Descuento = 0;
+                double Descuento = 0;
 
                 //Se cargan el objeto de totales para la información de encabezado que se va a enviar al XML
                 if (oRecordset.RecordCount != 0)
@@ -181,7 +181,7 @@ namespace SCGCE.BL
                     //Llenar el encabezado
                     objEncabezado.Totales = objTotales;
                     //Llenar descuento
-                    Descuento = Convert.ToInt32(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
+                    Descuento = Convert.ToDouble(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
                     if (Descuento != 0)
                     {
                         objDscRcgGlobal = new DscRcgGlobal();
@@ -388,7 +388,7 @@ namespace SCGCE.BL
 
                 oRecordset.DoQuery(strConsulta);
                 objDocumento.DscRcgGlobal = new List<DscRcgGlobal>();
-                int Descuento = 0;
+                double Descuento = 0;
 
                 //Se cargan el objeto de totales para la información de encabezado que se va a enviar al XML
                 if (oRecordset.RecordCount != 0)
@@ -400,7 +400,7 @@ namespace SCGCE.BL
                     //Llenar el encabezado
                     objEncabezado.Totales = objTotales;
                     //Llenar descuento
-                    Descuento = Convert.ToInt32(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
+                    Descuento = Convert.ToDouble(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
                     if (Descuento != 0)
                     {
                         objDscRcgGlobal = new DscRcgGlobal();
@@ -603,7 +603,7 @@ namespace SCGCE.BL
 
                 oRecordset.DoQuery(strConsulta);
                 objDocumento.DscRcgGlobal = new List<DscRcgGlobal>();
-                int Descuento = 0;
+                double Descuento = 0;
 
                 //Se cargan el objeto de totales para la información de encabezado que se va a enviar al XML
                 if (oRecordset.RecordCount != 0)
@@ -617,7 +617,7 @@ namespace SCGCE.BL
                     //Llenar el encabezado
                     objEncabezado.Totales = objTotales;
                     //Llenar descuento
-                    Descuento = Convert.ToInt32(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
+                    Descuento = Convert.ToDouble(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
                     if (Descuento != 0)
                     {
                         objDscRcgGlobal = new DscRcgGlobal();
@@ -818,7 +818,7 @@ namespace SCGCE.BL
 
                 oRecordset.DoQuery(strConsulta);
                 objExportaciones.DscRcgGlobal = new List<DscRcgGlobal>();
-                int Descuento = 0;
+                double Descuento = 0;
 
                 //Se cargan el objeto de totales para la información de encabezado que se va a enviar al XML
                 if (oRecordset.RecordCount != 0)
@@ -832,7 +832,7 @@ namespace SCGCE.BL
                     //Llenar el encabezado
                     objEncabezado.Totales = objTotales;
                     //Llenar descuento
-                    Descuento = Convert.ToInt32(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
+                    Descuento = Convert.ToDouble(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
                     if (Descuento != 0)
                     {
                         objDscRcgGlobal = new DscRcgGlobal();
@@ -1064,7 +1064,7 @@ namespace SCGCE.BL
 
                 oRecordset.DoQuery(strConsulta);
                 objDocumento.DscRcgGlobal = new List<DscRcgGlobal>();
-                int Descuento = 0;
+                double Descuento = 0;
 
                 //Se cargan el objeto de totales para la información de encabezado que se va a enviar al XML
                 if (oRecordset.RecordCount != 0)
@@ -1076,7 +1076,7 @@ namespace SCGCE.BL
                     //Llenar el encabezado
                     objEncabezado.Totales = objTotales;
                     //Llenar descuento
-                    Descuento = Convert.ToInt32(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
+                    Descuento = Convert.ToDouble(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
                     if (Descuento != 0)
                     {
                         objDscRcgGlobal = new DscRcgGlobal();
@@ -1256,7 +1256,7 @@ namespace SCGCE.BL
 
                 oRecordset.DoQuery(strConsulta);
                 objDocumento.DscRcgGlobal = new List<DscRcgGlobal>();
-                int Descuento = 0;
+                double Descuento = 0;
 
                 //Se cargan el objeto de totales para la información de encabezado que se va a enviar al XML
                 if (oRecordset.RecordCount != 0)
@@ -1267,7 +1267,7 @@ namespace SCGCE.BL
                     //Llenar el encabezado
                     objEncabezado.Totales = objTotales;
                     //Llenar descuento
-                    Descuento = Convert.ToInt32(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
+                    Descuento = Convert.ToDouble(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
                     if (Descuento != 0)
                     {
                         objDscRcgGlobal = new DscRcgGlobal();
@@ -1473,7 +1473,7 @@ namespace SCGCE.BL
 
                 oRecordset.DoQuery(strConsulta);
                 objDocumento.DscRcgGlobal = new List<DscRcgGlobal>();
-                int Descuento = 0;
+                double Descuento = 0;
 
                 //Se cargan el objeto de totales para la información de encabezado que se va a enviar al XML
                 if (oRecordset.RecordCount != 0)
@@ -1487,7 +1487,7 @@ namespace SCGCE.BL
                     //Llenar el encabezado
                     objEncabezado.Totales = objTotales;
                     //Llenar descuento
-                    Descuento = Convert.ToInt32(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
+                    Descuento = Convert.ToDouble(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
                     if (Descuento != 0)
                     {
                         objDscRcgGlobal = new DscRcgGlobal();
@@ -1698,7 +1698,7 @@ namespace SCGCE.BL
 
                 oRecordset.DoQuery(strConsulta);
                 objExportaciones.DscRcgGlobal = new List<DscRcgGlobal>();
-                int Descuento = 0;
+                double Descuento = 0;
 
                 //Se cargan el objeto de totales para la información de encabezado que se va a enviar al XML
                 if (oRecordset.RecordCount != 0)
@@ -1712,7 +1712,7 @@ namespace SCGCE.BL
                     //Llenar el encabezado
                     objEncabezado.Totales = objTotales;
                     //Llenar descuento
-                    Descuento = Convert.ToInt32(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
+                    Descuento = Convert.ToDouble(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
                     if (Descuento != 0)
                     {
                         objDscRcgGlobal = new DscRcgGlobal();
@@ -1949,7 +1949,7 @@ namespace SCGCE.BL
 
                 oRecordset.DoQuery(strConsulta);
                 objDocumento.DscRcgGlobal = new List<DscRcgGlobal>();
-                int Descuento = 0;
+                double Descuento = 0;
 
                 //Se cargan el objeto de totales para la información de encabezado que se va a enviar al XML
                 if (oRecordset.RecordCount != 0)
@@ -1963,7 +1963,7 @@ namespace SCGCE.BL
                     //Llenar el encabezado
                     objEncabezado.Totales = objTotales;
                     //Llenar descuento
-                    Descuento = Convert.ToInt32(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
+                    Descuento = Convert.ToDouble(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
                     if (Descuento != 0)
                     {
                         objDscRcgGlobal = new DscRcgGlobal();
@@ -2175,7 +2175,7 @@ namespace SCGCE.BL
 
                 oRecordset.DoQuery(strConsulta);
                 objExportaciones.DscRcgGlobal = new List<DscRcgGlobal>();
-                int Descuento = 0;
+                double Descuento = 0;
 
                 //Se cargan el objeto de totales para la información de encabezado que se va a enviar al XML
                 if (oRecordset.RecordCount != 0)
@@ -2189,7 +2189,7 @@ namespace SCGCE.BL
                     //Llenar el encabezado
                     objEncabezado.Totales = objTotales;
                     //Llenar descuento
-                    Descuento = Convert.ToInt32(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
+                    Descuento = Convert.ToDouble(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
                     if (Descuento != 0)
                     {
                         objDscRcgGlobal = new DscRcgGlobal();
@@ -2433,7 +2433,7 @@ namespace SCGCE.BL
 
                 oRecordset.DoQuery(strConsulta);
                 objDocumento.DscRcgGlobal = new List<DscRcgGlobal>();
-                int Descuento = 0;
+                double Descuento = 0;
 
                 //Se cargan el objeto de totales para la información de encabezado que se va a enviar al XML
                 if (oRecordset.RecordCount != 0)
@@ -2447,7 +2447,7 @@ namespace SCGCE.BL
                     //Llenar el encabezado
                     objEncabezado.Totales = objTotales;
                     //Llenar descuento
-                    Descuento = Convert.ToInt32(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
+                    Descuento = Convert.ToDouble(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
                     if (Descuento != 0)
                     {
                         objDscRcgGlobal = new DscRcgGlobal();
@@ -2657,7 +2657,7 @@ namespace SCGCE.BL
 
                 oRecordset.DoQuery(strConsulta);
                 objDocumento.DscRcgGlobal = new List<DscRcgGlobal>();
-                int Descuento = 0;
+                double Descuento = 0;
 
                 //Se cargan el objeto de totales para la información de encabezado que se va a enviar al XML
                 if (oRecordset.RecordCount != 0)
@@ -2671,7 +2671,7 @@ namespace SCGCE.BL
                     //Llenar el encabezado
                     objEncabezado.Totales = objTotales;
                     //Llenar descuento
-                    Descuento = Convert.ToInt32(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
+                    Descuento = Convert.ToDouble(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
                     if (Descuento != 0)
                     {
                         objDscRcgGlobal = new DscRcgGlobal();
@@ -2875,7 +2875,7 @@ namespace SCGCE.BL
 
                 oRecordset.DoQuery(strConsulta);
                 objDocumento.DscRcgGlobal = new List<DscRcgGlobal>();
-                int Descuento = 0;
+                double Descuento = 0;
 
                 //Se cargan el objeto de totales para la información de encabezado que se va a enviar al XML
                 if (oRecordset.RecordCount != 0)
@@ -2889,7 +2889,7 @@ namespace SCGCE.BL
                     //Llenar el encabezado
                     objEncabezado.Totales = objTotales;
                     //Llenar descuento
-                    Descuento = Convert.ToInt32(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
+                    Descuento = Convert.ToDouble(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
                     if (Descuento != 0)
                     {
                         objDscRcgGlobal = new DscRcgGlobal();
@@ -3099,7 +3099,7 @@ namespace SCGCE.BL
 
                 oRecordset.DoQuery(strConsulta);
                 objDocumento.DscRcgGlobal = new List<DscRcgGlobal>();
-                int Descuento = 0;
+                double Descuento = 0;
 
                 //Se cargan el objeto de totales para la información de encabezado que se va a enviar al XML
                 if (oRecordset.RecordCount != 0)
@@ -3113,7 +3113,7 @@ namespace SCGCE.BL
                     //Llenar el encabezado
                     objEncabezado.Totales = objTotales;
                     //Llenar descuento
-                    Descuento = Convert.ToInt32(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
+                    Descuento = Convert.ToDouble(oRecordset.Fields.Item("PorcentajeDescuento").Value.ToString());
                     if (Descuento != 0)
                     {
                         objDscRcgGlobal = new DscRcgGlobal();
@@ -3436,11 +3436,13 @@ namespace SCGCE.BL
 
                 if (EsDocumentoElectronico(Indicador, out tipoDoc, pFormTypeEx, oCompany)) //Se busca si ese documento esta configurado para CE
                 {
+                    var camposComentarios = ObtenerCamposComentarios(Indicador, pFormTypeEx, oCompany);
                     switch (pFormTypeEx)
                     {
                         case "133"://Facturas Electrónica
                             {
                                 DTE objFacturaElec = ConsultaFactura(pDocEntry, tipoDoc, out p_comentario, oCompany);
+                                p_comentario = ObtenerComentarioDocumento("OINV", pDocEntry, camposComentarios, oCompany);
                                 TipoDte = objFacturaElec.Documento.Encabezado.IdDoc.TipoDTE;
                                 XML = GetXMLFromObject(objFacturaElec);
                                 EnviarDte(XML, objFacturaElec.Documento.Encabezado.IdDoc.TipoDTE, objFacturaElec.Documento.Encabezado.Emisor.RUTEmisor, p_comentario, oCompany);
@@ -3451,6 +3453,7 @@ namespace SCGCE.BL
                         case "65302"://Facturas Exenta
                             {
                                 DTE objFacturaExen = ConsultaFacturaExenta(pDocEntry, tipoDoc, out p_comentario, oCompany);
+                                p_comentario = ObtenerComentarioDocumento("OINV", pDocEntry, camposComentarios, oCompany);
                                 TipoDte = objFacturaExen.Documento.Encabezado.IdDoc.TipoDTE;
                                 XML = GetXMLFromObject(objFacturaExen);
                                 EnviarDte(XML, objFacturaExen.Documento.Encabezado.IdDoc.TipoDTE, objFacturaExen.Documento.Encabezado.Emisor.RUTEmisor, p_comentario, oCompany);
@@ -3461,6 +3464,7 @@ namespace SCGCE.BL
                         case "65304"://Boleta Electrónica
                             {
                                 DTE objBoletaElec = ConsultaBoleta(pDocEntry, tipoDoc, out p_comentario, oCompany);
+                                p_comentario = ObtenerComentarioDocumento("OINV", pDocEntry, camposComentarios, oCompany);
                                 TipoDte = objBoletaElec.Documento.Encabezado.IdDoc.TipoDTE;
                                 XML = GetXMLFromObject(objBoletaElec);
                                 XML = XML.Replace("<RznSoc>", "<RznSocEmisor>");
@@ -3474,6 +3478,7 @@ namespace SCGCE.BL
                         case "65305"://Boleta Exenta
                             {
                                 DTE objBoletaExen = ConsultaBoletaExenta(pDocEntry, tipoDoc, out p_comentario, oCompany);
+                                p_comentario = ObtenerComentarioDocumento("OINV", pDocEntry, camposComentarios, oCompany);
                                 TipoDte = objBoletaExen.Documento.Encabezado.IdDoc.TipoDTE;
                                 XML = GetXMLFromObject(objBoletaExen);
                                 XML = XML.Replace("<RznSoc>", "<RznSocEmisor>");
@@ -3490,6 +3495,7 @@ namespace SCGCE.BL
                                 if (Indicador == "11")
                                 {
                                     objNotaDebito = ConsultaNotaDebitoExp(pDocEntry, tipoDoc, out p_comentario, oCompany);
+                                    p_comentario = ObtenerComentarioDocumento("OINV", pDocEntry, camposComentarios, oCompany);
                                     TipoDte = objNotaDebito.Exportaciones.Encabezado.IdDoc.TipoDTE;
                                     XML = GetXMLFromObject(objNotaDebito);
                                     EnviarDte(XML, objNotaDebito.Exportaciones.Encabezado.IdDoc.TipoDTE, objNotaDebito.Exportaciones.Encabezado.Emisor.RUTEmisor, p_comentario, oCompany);
@@ -3497,6 +3503,7 @@ namespace SCGCE.BL
                                 else
                                 {
                                     objNotaDebito = ConsultaNotaDebito(pDocEntry, tipoDoc, out p_comentario, oCompany);
+                                    p_comentario = ObtenerComentarioDocumento("OINV", pDocEntry, camposComentarios, oCompany);
                                     TipoDte = objNotaDebito.Documento.Encabezado.IdDoc.TipoDTE;
                                     XML = GetXMLFromObject(objNotaDebito);
                                     EnviarDte(XML, objNotaDebito.Documento.Encabezado.IdDoc.TipoDTE, objNotaDebito.Documento.Encabezado.Emisor.RUTEmisor, p_comentario, oCompany);
@@ -3512,6 +3519,7 @@ namespace SCGCE.BL
                                 if (Indicador == "12")
                                 {
                                     objNotaCredito = ConsultaNotaCreditoExp(pDocEntry, tipoDoc, out p_comentario, oCompany);
+                                    p_comentario = ObtenerComentarioDocumento("ORIN", pDocEntry, camposComentarios, oCompany);
                                     TipoDte = objNotaCredito.Exportaciones.Encabezado.IdDoc.TipoDTE;
                                     XML = GetXMLFromObject(objNotaCredito);
                                     EnviarDte(XML, objNotaCredito.Exportaciones.Encabezado.IdDoc.TipoDTE, objNotaCredito.Exportaciones.Encabezado.Emisor.RUTEmisor, p_comentario, oCompany);
@@ -3519,6 +3527,7 @@ namespace SCGCE.BL
                                 else
                                 {
                                     objNotaCredito = ConsultaNotaCredito(pDocEntry, tipoDoc, out p_comentario, oCompany);
+                                    p_comentario = ObtenerComentarioDocumento("ORIN", pDocEntry, camposComentarios, oCompany);
                                     TipoDte = objNotaCredito.Documento.Encabezado.IdDoc.TipoDTE;
                                     XML = GetXMLFromObject(objNotaCredito);
                                     EnviarDte(XML, objNotaCredito.Documento.Encabezado.IdDoc.TipoDTE, objNotaCredito.Documento.Encabezado.Emisor.RUTEmisor, p_comentario, oCompany);
@@ -3532,6 +3541,7 @@ namespace SCGCE.BL
                         case "141"://Factura Compra
                             {
                                 DTE objFacturaCompra = ConsultaFacturaCompra(pDocEntry, tipoDoc, out p_comentario, oCompany);
+                                p_comentario = ObtenerComentarioDocumento("OPCH", pDocEntry, camposComentarios, oCompany);
                                 TipoDte = objFacturaCompra.Documento.Encabezado.IdDoc.TipoDTE;
                                 XML = GetXMLFromObject(objFacturaCompra);
                                 EnviarDte(XML, objFacturaCompra.Documento.Encabezado.IdDoc.TipoDTE, objFacturaCompra.Documento.Encabezado.Emisor.RUTEmisor, p_comentario, oCompany);
@@ -3542,6 +3552,7 @@ namespace SCGCE.BL
                         case "940"://Guia Despacho
                             {
                                 DTE objGuiaDespacho = ConsultaGuiaDespacho(pDocEntry, tipoDoc, Almacen, out p_comentario, oCompany);
+                                p_comentario = ObtenerComentarioDocumento("ODLN", pDocEntry, camposComentarios, oCompany);
                                 TipoDte = objGuiaDespacho.Documento.Encabezado.IdDoc.TipoDTE;
                                 XML = GetXMLFromObject(objGuiaDespacho);
                                 EnviarDte(XML, objGuiaDespacho.Documento.Encabezado.IdDoc.TipoDTE, objGuiaDespacho.Documento.Encabezado.Emisor.RUTEmisor, p_comentario, oCompany);
@@ -3552,6 +3563,7 @@ namespace SCGCE.BL
                         case "140"://Guia Despacho Entrega
                             {
                                 DTE objGuiaDespachoEntrega = ConsultaGuiaDespachoEntrega(pDocEntry, tipoDoc, out p_comentario, oCompany);
+                                p_comentario = ObtenerComentarioDocumento("ODLN", pDocEntry, camposComentarios, oCompany);
                                 TipoDte = objGuiaDespachoEntrega.Documento.Encabezado.IdDoc.TipoDTE;
                                 XML = GetXMLFromObject(objGuiaDespachoEntrega);
                                 EnviarDte(XML, objGuiaDespachoEntrega.Documento.Encabezado.IdDoc.TipoDTE, objGuiaDespachoEntrega.Documento.Encabezado.Emisor.RUTEmisor, p_comentario, oCompany);
@@ -3562,6 +3574,7 @@ namespace SCGCE.BL
                         case "182"://Guia Despacho Devolución
                             {
                                 DTE objGuiaDespachoDevolucion = ConsultaGuiaDespachoDevolucion(pDocEntry, tipoDoc, out p_comentario, oCompany);
+                                p_comentario = ObtenerComentarioDocumento("ORPD", pDocEntry, camposComentarios, oCompany);
                                 TipoDte = objGuiaDespachoDevolucion.Documento.Encabezado.IdDoc.TipoDTE;
                                 XML = GetXMLFromObject(objGuiaDespachoDevolucion);
                                 EnviarDte(XML, objGuiaDespachoDevolucion.Documento.Encabezado.IdDoc.TipoDTE, objGuiaDespachoDevolucion.Documento.Encabezado.Emisor.RUTEmisor, p_comentario, oCompany);
@@ -3572,6 +3585,7 @@ namespace SCGCE.BL
                         case "60091"://Facturas Reserva Electrónica
                             {
                                 DTE objFacturaElec = ConsultaFactura(pDocEntry, tipoDoc, out p_comentario, oCompany);
+                                p_comentario = ObtenerComentarioDocumento("OINV", pDocEntry, camposComentarios, oCompany);
                                 TipoDte = objFacturaElec.Documento.Encabezado.IdDoc.TipoDTE;
                                 XML = GetXMLFromObject(objFacturaElec);
                                 EnviarDte(XML, objFacturaElec.Documento.Encabezado.IdDoc.TipoDTE, objFacturaElec.Documento.Encabezado.Emisor.RUTEmisor, p_comentario, oCompany);
@@ -3582,6 +3596,7 @@ namespace SCGCE.BL
                         case "65300"://Facturas Anticipo Electrónica
                             {
                                 DTE objFacturaElec = ConsultaFacturaAnticipo(pDocEntry, tipoDoc, out p_comentario, oCompany);
+                                p_comentario = ObtenerComentarioDocumento("ODPI", pDocEntry, camposComentarios, oCompany);
                                 TipoDte = objFacturaElec.Documento.Encabezado.IdDoc.TipoDTE;
                                 XML = GetXMLFromObject(objFacturaElec);
                                 EnviarDte(XML, objFacturaElec.Documento.Encabezado.IdDoc.TipoDTE, objFacturaElec.Documento.Encabezado.Emisor.RUTEmisor, p_comentario, oCompany);
@@ -3592,6 +3607,7 @@ namespace SCGCE.BL
                         case "65307"://Facturas de exportación Electrónica 
                             {
                                 DTE objFacturaElec = ConsultaFacturaExport(pDocEntry, tipoDoc, out p_comentario, oCompany);
+                                p_comentario = ObtenerComentarioDocumento("OINV", pDocEntry, camposComentarios, oCompany);
                                 TipoDte = objFacturaElec.Exportaciones.Encabezado.IdDoc.TipoDTE;
                                 XML = GetXMLFromObject(objFacturaElec);
                                 EnviarDte(XML, objFacturaElec.Exportaciones.Encabezado.IdDoc.TipoDTE, objFacturaElec.Exportaciones.Encabezado.Emisor.RUTEmisor, p_comentario, oCompany);
@@ -3661,7 +3677,7 @@ namespace SCGCE.BL
 
             this.RutaDTE = oRecordset.Fields.Item("U_RutaDTE").Value.ToString();
 
-            string rutaDocumentos = string.IsNullOrEmpty(this.pathDocumentos) ? (string.IsNullOrEmpty(RutaDTE) ? Environment.GetFolderPath(Environment.SpecialFolder.Desktop).ToString() : RutaDTE) : this.pathDocumentos;
+            string rutaDocumentos = string.IsNullOrEmpty(this.pathDocumentos) ? (string.IsNullOrEmpty(RutaDTE) ? Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments).ToString() : RutaDTE) : this.pathDocumentos;
             //string rutaDocumentos = string.IsNullOrEmpty(this.pathDocumentos) ? Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments).ToString() : this.pathDocumentos;
             //string RutaLocal = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments).ToString();
             System.Runtime.InteropServices.Marshal.ReleaseComObject(oRecordset);
@@ -3701,13 +3717,14 @@ namespace SCGCE.BL
 
 
                 //Consulta para vista de encabezado del documento
-                strConsulta = "SELECT \"U_IdNum\",\"U_RutaDTE\",\"U_cedibles\",\"U_CopiasCed\" FROM \"@SCGCE_CONF\" ";
+                strConsulta = "SELECT \"U_IdNum\",\"U_RutaDTE\",\"U_cedibles\",\"U_CopiasCed\",\"U_BoletaTick\" FROM \"@SCGCE_CONF\" ";
                 //strConsulta = "SELECT \"U_IdNum\",\"U_RutaDTE\" FROM \"@SCGCE_CONF\" ";
 
                 oRecordset.DoQuery(strConsulta);
 
                 this.RutaDTE = oRecordset.Fields.Item("U_RutaDTE").Value.ToString();
                 string RutEmisor = oRecordset.Fields.Item("U_IdNum").Value.ToString();
+                string BoletaTick = oRecordset.Fields.Item("U_BoletaTick").Value.ToString();
 
 
                 //Consulta el UDF para renombrar el PDF
@@ -3751,6 +3768,14 @@ namespace SCGCE.BL
                     }
                 }
 
+                if (TipoDte == 39 || TipoDte == 41)
+                {
+                    if (BoletaTick == "Y")
+                    {
+                        TipoDoc = SCGCE.BL.facele.obtieneDTEFormato.PDF_TERMICO;
+                    }
+                }
+
 
                 System.Runtime.InteropServices.Marshal.ReleaseComObject(oRecordset);
                 //string RutaLocal = rutaDocumentos;
@@ -3768,7 +3793,7 @@ namespace SCGCE.BL
                 string pdfResponseStr = string.Empty;
                 string outUrl = string.Empty;
                 string outUrlXML = string.Empty;
-                string rutaDocumentos = string.IsNullOrEmpty(this.pathDocumentos) ? (string.IsNullOrEmpty(RutaDTE) ? Environment.GetFolderPath(Environment.SpecialFolder.Desktop).ToString() : RutaDTE) : this.pathDocumentos;
+                string rutaDocumentos = string.IsNullOrEmpty(this.pathDocumentos) ? (string.IsNullOrEmpty(RutaDTE) ? Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments).ToString() : RutaDTE) : this.pathDocumentos;
 
 
                 oProxy.ClientCredentials.UserName.UserName = "0cc713a13";
@@ -3917,6 +3942,71 @@ namespace SCGCE.BL
             }
 
             return FormTypeEx;
+        }
+
+        private string[] ObtenerCamposComentarios(string pIndicador, string pFormTypeEx, SAPbobsCOM.Company oCompany)
+        {
+            string[] campos = new string[10];
+            try
+            {
+                SAPbobsCOM.Recordset oRecordset = (Recordset)oCompany.GetBusinessObject(BoObjectTypes.BoRecordset);
+
+                string strIndicador = string.Empty;
+
+                strIndicador = @"SELECT ""U_CommField1"", ""U_CommField2"", ""U_CommField3"", ""U_CommField4"", ""U_CommField5"", ""U_CommField6"", ""U_CommField7"",
+                    ""U_CommField8"", ""U_CommField9"", ""U_CommField10""
+                    FROM " + oDbHelper.SetDB("@SCGCE_CONFS") + @" WHERE  ""U_Term"" = '" + pFormTypeEx + @"' AND ""U_IdSerS"" = '" + pIndicador + "'";
+
+                oRecordset.DoQuery(strIndicador);
+
+                if (oRecordset.RecordCount > 0)
+                {
+                    for (int i = 0; i < 10; i++)
+                    {
+                        campos[i] = oRecordset.Fields.Item(i).Value.ToString();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+            return campos;
+        }
+
+        private string ObtenerComentarioDocumento(string tabla, string docEntry, string[] campos, SAPbobsCOM.Company oCompany)
+        {
+            string comentario = "A0;";
+            try
+            {
+                SAPbobsCOM.Recordset oRecordset = (Recordset)oCompany.GetBusinessObject(BoObjectTypes.BoRecordset);
+
+                string query = @"SELECT " + (string.IsNullOrEmpty(campos[0]) ? "''" : @"""" + campos[0] + @"""");
+
+                for (int i = 1; i < 10; i++)
+                {
+                    query += "," + (string.IsNullOrEmpty(campos[i]) ? "''" : @"""" + campos[i] + @"""");
+                }
+
+                query += " FROM " + tabla + @" WHERE ""DocEntry"" = " + docEntry;
+
+                oRecordset.DoQuery(query);
+
+                if (oRecordset.RecordCount > 0)
+                {
+                    for (int i = 0; i < 10; i++)
+                    {
+                        comentario += oRecordset.Fields.Item(i).Value.ToString() + ";";
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+            return comentario;
         }
 
         #endregion
